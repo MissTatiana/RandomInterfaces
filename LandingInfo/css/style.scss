@@ -5,15 +5,47 @@ $hover: #f07241;
 $headers: #601848;
 
 $overlay: #300030;
-$contrast: #480048;
+$extra: #480048;
 
 
 
 /* Variables and Mixins
 -----------------------------------------*/
+@mixin colorTransition {
+	transition: color 0.3s ease;
+	
+	&:hover {
+    	color: $hover;
+	};
+}
 
 
-
-/* Helper Classes
+/* Body Styles
 -----------------------------------------*/
+h2 { color: $headers; }
 
+h3 { color: $extra; }
+
+a { color: $clickable; }
+
+
+/* Header / Nav
+-----------------------------------------*/
+.header {
+	background: linear-gradient(rgba(48, 0, 48, 0.35), rgba(48, 0, 48, 0.35)), url(../assets/citypeople.jpg);
+	background-position: -1208px -216px;
+	height: 500px;
+	max-height: 500px;
+
+	.nav {
+		ul li {
+			a {
+
+			}
+
+			&:hover {
+				background: #000;
+			}
+		}
+	}
+}

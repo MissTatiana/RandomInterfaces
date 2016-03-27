@@ -2,7 +2,25 @@
 -----------------------------------------*/
 /* Variables and Mixins
 -----------------------------------------*/
-/* Helper Classes
+/* Body Styles
 -----------------------------------------*/
+h2 {
+  color: #601848; }
+
+h3 {
+  color: #480048; }
+
+a {
+  color: #c04848; }
+
+/* Header / Nav
+-----------------------------------------*/
+.header {
+  background: linear-gradient(rgba(48, 0, 48, 0.35), rgba(48, 0, 48, 0.35)), url(../assets/citypeople.jpg);
+  background-position: -1208px -216px;
+  height: 500px;
+  max-height: 500px; }
+  .header .nav ul li:hover {
+    background: #000; }
 
 /*# sourceMappingURL=style.css.map */
