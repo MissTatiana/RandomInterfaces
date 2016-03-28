@@ -18,6 +18,8 @@ a {
   transition: color 0.3s ease; }
   a:hover {
     color: #f07241; }
+  a:active {
+    color: #fc7c4a; }
 
 p {
   color: #000; }
@@ -27,7 +29,8 @@ p {
 
 .button {
   background: #c04848;
-  border-radius: 10px; }
+  border-radius: 10px;
+  color: #fff; }
   .button:hover {
     background: #f07241; }
 
@@ -89,7 +92,7 @@ p {
         padding: 10px 8px;
         height: 200px; }
 
-/* Content
+/* Footer
 -----------------------------------------*/
 footer {
   background: linear-gradient(rgba(81, 2, 81, 0.57), rgba(81, 2, 81, 0.57)), url(../assets/cityscape.jpg);
