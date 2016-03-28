@@ -4,23 +4,77 @@
 -----------------------------------------*/
 /* Body Styles
 -----------------------------------------*/
+body {
+  background: url(../assets/dust.png); }
+
 h2 {
-  color: #601848; }
+  color: #7b027b; }
 
 h3 {
-  color: #480048; }
+  color: #510251; }
 
 a {
-  color: #c04848; }
+  color: #c04848;
+  transition: color 0.3s ease; }
+  a:hover {
+    color: #f07241; }
+
+p {
+  color: #000; }
+
+.compress {
+  padding: 0 5%; }
+
+.button {
+  background: #c04848;
+  border-radius: 10px; }
+  .button:hover {
+    background: #f07241; }
+
+.separator {
+  width: 10%;
+  height: 10px;
+  border-bottom: 5px solid #f07241;
+  margin: 20px auto; }
 
 /* Header / Nav
 -----------------------------------------*/
 .header {
-  background: linear-gradient(rgba(48, 0, 48, 0.35), rgba(48, 0, 48, 0.35)), url(../assets/citypeople.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../assets/citypeople.jpg);
   background-position: -1208px -216px;
   height: 500px;
   max-height: 500px; }
-  .header .nav ul li:hover {
-    background: #000; }
+  .header .navbar {
+    padding-top: 10px;
+    border-bottom: 1px solid #510251;
+    height: 50px; }
+    .header .navbar a {
+      font-weight: 600;
+      padding: 7px 5%;
+      transition: background 0.5s ease; }
+      .header .navbar a:hover {
+        color: #f07241;
+        background: #fff; }
+    .header .navbar .large-2 h5 {
+      color: #510251;
+      border-bottom: 5px solid #510251; }
+    .header .navbar .left-nav a:first-child {
+      margin-left: 62%; }
+  .header .info {
+    margin-top: 50px; }
+    .header .info p {
+      margin: 50px 25%;
+      width: 50%; }
+    .header .info .button {
+      width: 50%;
+      margin: 0 25%; }
+
+/* Content
+-----------------------------------------*/
+.content {
+  margin: 50px 0; }
+  .content p {
+    width: 70%;
+    margin: 0 15%; }
 
 /*# sourceMappingURL=style.css.map */
